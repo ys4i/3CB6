@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EF83_0_1"
+			(symbol "3CB6_0_1"
 				(polyline
 					(pts
 						(xy -5.08 -2.54) (xy -5.08 3.81) (xy -5.08 3.81)
@@ -131,7 +131,7 @@
 					)
 				)
 			)
-			(symbol "EF83_1_0"
+			(symbol "3CB6_1_0"
 				(polyline
 					(pts
 						(xy -2.54 -5.08) (xy -2.54 -7.62)
@@ -169,7 +169,7 @@
 					)
 				)
 			)
-			(symbol "EF83_1_1"
+			(symbol "3CB6_1_1"
 				(polyline
 					(pts
 						(xy -5.08 -1.27) (xy -3.175 -1.27)
@@ -549,7 +549,7 @@
                                        )
                                )
 			)
-			(symbol "EF83_2_1"
+			(symbol "3CB6_2_1"
 				(polyline
 					(pts
 						(xy -2.54 -5.08) (xy -2.54 -6.35) (xy -2.54 -6.35)
