@@ -5,7 +5,7 @@
 	(uuid "11edbadf-7768-4c58-8203-ed44bf44d853")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Valve:EF83"
+               (symbol "Valve:3CB6"
 			(pin_names
 				(offset 0)
 			)
@@ -20,7 +20,7 @@
 					)
 				)
 			)
-			(property "Value" "EF83"
+                       (property "Value" "3CB6"
 				(at 6.35 -8.89 0)
 				(effects
 					(font
@@ -459,16 +459,16 @@
 					)
 				)
 				(pin input line
-					(at -7.62 -1.27 0)
-					(length 2.54)
-					(name "G1"
+                               (at -7.62 -1.27 0)
+                               (length 2.54)
+                               (name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+                               (number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -477,16 +477,16 @@
 					)
 				)
 				(pin bidirectional line
-					(at -2.54 -8.89 90)
-					(length 2.54)
-					(name "K"
+                               (at -2.54 -8.89 90)
+                               (length 2.54)
+                               (name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+                               (number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -495,34 +495,16 @@
 					)
 				)
 				(pin output line
-					(at 0 11.43 270)
-					(length 2.54)
-					(name "A"
+                               (at 0 11.43 270)
+                               (length 2.54)
+                               (name "P"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 3.81 180)
-					(length 2.54)
-					(name "G3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
+                               (number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -530,42 +512,42 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 1.27 180)
-					(length 2.54)
-					(name "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 -3.81 180)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+                               (pin input line
+                                       (at 7.62 1.27 180)
+                                       (length 2.54)
+                                       (name "G2"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                                       (number "6"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                               )
+                               (pin input line
+                                       (at 7.62 -3.81 180)
+                                       (length 2.54)
+                                       (name "G3/IS"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                                       (number "7"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                               )
 			)
 			(symbol "EF83_2_1"
 				(polyline
@@ -604,48 +586,48 @@
 						(type none)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 3.81)
-					(name "F1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 -10.16 90)
-					(length 3.81)
-					(name "F2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+                               (pin power_in line
+                                       (at -2.54 -10.16 90)
+                                       (length 3.81)
+                                       (name "H3"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                                       (number "3"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                               )
+                               (pin power_in line
+                                       (at 2.54 -10.16 90)
+                                       (length 3.81)
+                                       (name "H"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                                       (number "4"
+                                               (effects
+                                                       (font
+                                                               (size 1.27 1.27)
+                                                       )
+                                               )
+                                       )
+                               )
 			)
 			(embedded_fonts no)
 		)
 	)
-	(symbol
-		(lib_id "Valve:EF83")
+       (symbol
+               (lib_id "Valve:3CB6")
 		(at 118.11 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -663,7 +645,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EF83"
+               (property "Value" "3CB6"
 			(at 121.2281 93.98 0)
 			(effects
 				(font
@@ -699,30 +681,27 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "5b032e28-2d82-4ce7-b55b-365aec5ce062")
-		)
-		(pin "9"
-			(uuid "311f3cd7-b6f1-45b5-883b-c3e5afe71075")
-		)
-		(pin "8"
-			(uuid "da3c93d8-ef96-4083-8447-bc509d774910")
-		)
-		(pin "6"
-			(uuid "d5efb1d2-dea8-4c28-bda9-e8af2774be27")
-		)
-		(pin "7"
-			(uuid "43c5da8c-61f6-4f98-a453-c57bc374dd25")
-		)
-		(pin "1"
-			(uuid "c4c3fd45-9a1e-4bde-8a8b-6f404ce556f6")
-		)
-		(pin "4"
-			(uuid "5e283a16-b268-46d5-8101-70733590b20f")
-		)
-		(pin "5"
-			(uuid "fa46d7f2-8a85-4f65-bc4d-dee81e67e84c")
-		)
+               (pin "2"
+                       (uuid "5b032e28-2d82-4ce7-b55b-365aec5ce062")
+               )
+               (pin "1"
+                       (uuid "311f3cd7-b6f1-45b5-883b-c3e5afe71075")
+               )
+               (pin "5"
+                       (uuid "d5efb1d2-dea8-4c28-bda9-e8af2774be27")
+               )
+               (pin "7"
+                       (uuid "43c5da8c-61f6-4f98-a453-c57bc374dd25")
+               )
+               (pin "6"
+                       (uuid "c4c3fd45-9a1e-4bde-8a8b-6f404ce556f6")
+               )
+               (pin "3"
+                       (uuid "5e283a16-b268-46d5-8101-70733590b20f")
+               )
+               (pin "4"
+                       (uuid "fa46d7f2-8a85-4f65-bc4d-dee81e67e84c")
+               )
 		(instances
 			(project ""
 				(path "/11edbadf-7768-4c58-8203-ed44bf44d853"
@@ -732,8 +711,8 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Valve:EF83")
+       (symbol
+               (lib_id "Valve:3CB6")
 		(at 139.7 104.14 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -751,7 +730,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "EF83"
+               (property "Value" "3CB6"
 			(at 146.05 104.7749 0)
 			(effects
 				(font
@@ -787,30 +766,27 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "5b032e28-2d82-4ce7-b55b-365aec5ce062")
-		)
-		(pin "9"
-			(uuid "311f3cd7-b6f1-45b5-883b-c3e5afe71075")
-		)
-		(pin "8"
-			(uuid "da3c93d8-ef96-4083-8447-bc509d774910")
-		)
-		(pin "6"
-			(uuid "d5efb1d2-dea8-4c28-bda9-e8af2774be27")
-		)
-		(pin "7"
-			(uuid "43c5da8c-61f6-4f98-a453-c57bc374dd25")
-		)
-		(pin "1"
-			(uuid "c4c3fd45-9a1e-4bde-8a8b-6f404ce556f6")
-		)
-		(pin "4"
-			(uuid "5e283a16-b268-46d5-8101-70733590b20f")
-		)
-		(pin "5"
-			(uuid "fa46d7f2-8a85-4f65-bc4d-dee81e67e84c")
-		)
+               (pin "2"
+                       (uuid "5b032e28-2d82-4ce7-b55b-365aec5ce062")
+               )
+               (pin "1"
+                       (uuid "311f3cd7-b6f1-45b5-883b-c3e5afe71075")
+               )
+               (pin "5"
+                       (uuid "d5efb1d2-dea8-4c28-bda9-e8af2774be27")
+               )
+               (pin "7"
+                       (uuid "43c5da8c-61f6-4f98-a453-c57bc374dd25")
+               )
+               (pin "6"
+                       (uuid "c4c3fd45-9a1e-4bde-8a8b-6f404ce556f6")
+               )
+               (pin "3"
+                       (uuid "5e283a16-b268-46d5-8101-70733590b20f")
+               )
+               (pin "4"
+                       (uuid "fa46d7f2-8a85-4f65-bc4d-dee81e67e84c")
+               )
 		(instances
 			(project ""
 				(path "/11edbadf-7768-4c58-8203-ed44bf44d853"
